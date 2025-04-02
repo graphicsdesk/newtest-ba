@@ -6,6 +6,7 @@
     "posthtml-expressions": {
       "root": "./src/partials",
       "locals": {
+        "content": "Default content here",
         "top": [
           {
             "type": "text",
