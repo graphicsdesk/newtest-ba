@@ -1,0 +1,54 @@
+{
+  "plugins": {
+    "posthtml-include": {
+      "root": "./src"
+    },
+    "posthtml-expressions": {
+      "root": "./src/partials",
+      "locals": {
+        "top": [
+          {
+            "type": "text",
+            "value": "This is the top text for the Article!"
+          }
+        ],
+        "body": [
+          {
+            "type": "text",
+            "value": "Andromache, Hektor’s wife, delivers the monologue cited in the passage. In it, she addresses Hektor himself, although he is dead by this point in the story. She is lamenting the fact that he has passed, criticizing the fact that he has left her and their son to fend for themselves, which she believes will certainly end with them “go[ing] away in the hollow shops after being captured by Achaians (24.731). Primarily, this passage provides a contrary take on one of the Iliad’s main themes of individual pride over collective benefit, specifically in the context of war and combat."
+          },
+          {
+            "type": "text",
+            "value": "The poem consistently shows that maintaining one’s image and respect is heavily sought after in Trojan and Achaian society, and sought after especially so by Hektor. At the beginning of the poem, Hektor tries to end the entire war via combat between him and one of the Achaians. In their deliberation, the Achaian Menelaos argues to his comrades that “this will be a great defilement upon us, shame upon shame piled, if no one…goes out to face Hektor” (6.97). This appeal eventually prompts Aias to go and fight Hektor. Here, the prospect of shame was considered so dire that both Hektor and Aias would rather risk their lives in a frivolous bout than back down from the challenge of a one-on-one. After this, Hektor clings to this idea of securing his own glory, and it drives the war’s unfoldings until it reaches its logical end with his fight against Achilles."
+          },
+          {
+            "type": "text",
+            "value": "The underlying belief here in the superiority of the individual image is what Andromache is pushing back against in her monologue. She posits that Hektor’s true shame lies in abandoning his family for this venture, leaving “[her] a widow in [his] house” (24.726). This being at the end of the story is significant because it now nuances all of the preceding events. Now, instead of being exclusively enthralled by the action and grandeur of the Greek combat, readers are left grounded, with a fuller perspective because of Andromache’s insight. Further, although she is specifically criticizing Hektor with her speech highlighted in the excerpt, her sentiment applies to both Hektor and Achilles as the Iliad’s main heroes because the two characters are thematically linked via this same obsessive maintenance of their image, albeit in different ways. While Hektor’s pride leads him to his death via his picking the fight with Achilles, Achilles also incurs massive harm to his people because of this shared mindset. Throughout the poem, the entire reason the Achaians ever lose ground is because Achilles refuses to fight, which is a direct result of him losing his “prize of honor” to Agamemnon (9.343). Here, Achilles’s stubbornness and pride resulted in plentiful Achaian deaths in the same way Hektor’s stubbornness resulted in his death."
+          },
+          {
+            "type": "text",
+            "value": "In all, Andromache’s address to the deceased Hektor is significant to the overall poem for multiple reasons. Primarily, it delivers an alternative perspective on the theme of respect and pride that had been built up in the novel up to that point. Additionally, its narrative position serves to end the story in a grander sense. Now, instead of being left with the end of the main conflict as the end of the poem, Andromache’s address serves to situate the story in a greater, nuanced discussion of what it means to live a good life."
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "test_illustration.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "<i>Bryan Ammons is a Graphics deputy editor. He can be contacted at @pls.bryan on instagram.</i>"
+          }
+        ],
+        "headline": "Bryan’s peak Headline",
+        "date": "March 25, 2025",
+        "byline": "By Bryan Ammons. Graphic by Bryan too.",
+        "USE_NEWS_NAV": true,
+        "USE_EYE_NAV": false,
+        "USE_COVER_HED": true,
+        "IS_EMBED": false,
+        "DOC_URL": "https://docs.google.com/document/d/1tD9-Jg89ORU2SLag3wZGiWjLHwVSjbV-x5A9P2MC254/edit?tab=t.0"
+      }
+    }
+  }
+}
